@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Shritij Reddy Ramidi</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aSo4kd2xkTS5xuYPdOUz7X3lPb/jqUtg2vC47zgsjA3x6mjW9O8IWxv9Dh5M/4g" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #e7f0f8;
+        }
+        header {
+            background-color: #2e3b4e;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #2e3b4e;
+            font-size: 2em;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #2e3b4e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #scrollTopBtn, #toggleDarkMode {
+            position: fixed;
+            right: 20px;
+            z-index: 999;
+        }
+
+        #scrollTopBtn {
+            bottom: 20px;
+            display: none;
+        }
+
+        #toggleDarkMode {
+            bottom: 70px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shritij Reddy Ramidi</h1>
+        <p>Welcome to my portfolio page!</p>
+    </header>
+
+    <div class="container">
+        <section id="self-introduction">
+            <h2>Self Introduction</h2>
+            <p>Hello! I am Shritij Reddy Ramidi, a passionate developer with a love for coding and learning new technologies. I enjoy solving problems and creating impactful projects. This is my portfolio where you can find more about my skills, work, and experiences.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">HTML5</li>
+                <li class="list-group-item">CSS3</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">Python</li>
+                <li class="list-group-item">Git & GitHub</li>
+                <li class="list-group-item">React.js</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects / Work Experiences</h2>
+            <p>Below are some of my projects and work experiences:</p>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://github.com/your-git-link" target="_blank">Project 1: Description of Project 1</a></li>
+                <li class="list-group-item"><a href="https://github.com/your-git-link" target="_blank">Project 2: Description of Project 2</a></li>
+            </ul>
+        </section>
+
+        <section id="feedback-achievements">
+            <h2>Feedback / Achievements</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Received positive feedback from peers on collaborative projects.</li>
+                <li class="list-group-item">Awarded "Best Developer" in a recent hackathon.</li>
+                <li class="list-group-item">Smart India Hackathon (SIH) 2024 winner</li>   
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education Profile</h2>
+            <p>Bachelor's degree in Computer Science from KMIT (Keshav Memorial Institute of Technology)</p>
+            <p>Completed various online courses in web development, data science, and software engineering.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+                <li class="list-group-item">Phone: +1234567890</li>
+                <li class="list-group-item">LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn Profile</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Shritij Reddy Ramidi. All rights reserved.</p>
+        <p><a>Location: Hyderabad, India</a></p>
+        <p>Follow me on: 
+            <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a> | 
+            <a href="https://github.com/your-github" target="_blank">GitHub</a> | 
+            <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+    <!-- Buttons -->
+    <button id="scrollTopBtn" class="btn btn-primary">↑ Top</button>
+    <button id="toggleDarkMode" class="btn btn-dark">🌙 Toggle Dark Mode</button>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy27f2eD6p5wL95s1Y5s5Xo1aFu2pLhr+oA0Tve4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqD6bWZYoC6Vd8zzK9A9Eljb1hGZpvnkE22wpXvKQmFrh" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-4En5Zsmz9L0y0LcmHls6u30E9KHLzZvJfBwrWbo8KCZWr3wLTo9Pwl7Oj5jKhDBH" crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Show welcome message
+        window.onload = function () {
+            alert("Welcome to Shritij Reddy Ramidi's Portfolio!");
+        };
+
+        // Scroll to top functionality
+        const scrollBtn = document.getElementById("scrollTopBtn");
+        window.onscroll = function () {
+            scrollBtn.style.display = (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) ? "block" : "none";
+        };
+        scrollBtn.onclick = function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+
+        // Dark mode toggle
+        const toggleBtn = document.getElementById("toggleDarkMode");
+        let isDark = false;
+        toggleBtn.onclick = function () {
+            isDark = !isDark;
+            document.body.style.backgroundColor = isDark ? "#121212" : "#e7f0f8";
+            document.body.style.color = isDark ? "#ffffff" : "#000000";
+            document.querySelectorAll(".list-group-item").forEach(item => {
+                item.style.backgroundColor = isDark ? "#1e1e1e" : "#fff";
+                item.style.color = isDark ? "#fff" : "#000";
+            });
+            document.querySelector("header").style.backgroundColor = isDark ? "#1e1e1e" : "#2e3b4e";
+            document.querySelector("footer").style.backgroundColor = isDark ? "#1e1e1e" : "#2e3b4e";
+        };
+    </script>
+</body>
+</html>
